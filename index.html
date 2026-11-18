@@ -3,319 +3,237 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Microchip FPGA on GitHub - Repository Index</title>
-<meta name="description" content="One place to find Microchip PolarFire and PolarFire SoC repositories on GitHub: reference designs, embedded software, Linux, RTOS, HLS, and tools.">
-<style>
-  :root {
-    --bg: #f6f7f9; --card: #ffffff; --text: #1d2330; --muted: #5b6475;
-    --border: #dde1e8; --accent: #c8102e; --accent-soft: #fbe7ea;
-    --tag: #eef1f6; --warn: #8a5a00; --warn-bg: #fff4dc;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #12151b; --card: #1b2029; --text: #e6e9ef; --muted: #9aa3b2;
-      --border: #2c3340; --accent: #ff4d6a; --accent-soft: #3a1d24;
-      --tag: #262c38; --warn: #ffcf70; --warn-bg: #3a2f17;
-    }
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-         background: var(--bg); color: var(--text); line-height: 1.5; }
-  a { color: inherit; }
-  header { background: var(--card); border-bottom: 3px solid var(--accent); padding: 28px 20px 20px; }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
-  header .wrap { padding: 0; }
-  h1 { margin: 0 0 6px; font-size: 1.9rem; }
-  .sub { color: var(--muted); margin: 0 0 16px; }
-  .orgs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-  .orgs a { text-decoration: none; font-size: .85rem; padding: 4px 10px; border: 1px solid var(--border);
-            border-radius: 999px; background: var(--bg); }
-  .orgs a:hover { border-color: var(--accent); }
-  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-  #q { flex: 1 1 280px; padding: 10px 12px; font-size: 1rem; border: 1px solid var(--border);
-       border-radius: 8px; background: var(--bg); color: var(--text); }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-  .chip { cursor: pointer; font-size: .82rem; padding: 5px 11px; border-radius: 999px;
-          border: 1px solid var(--border); background: var(--card); color: var(--text); }
-  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
-  label.toggle { font-size: .85rem; color: var(--muted); display: flex; gap: 6px; align-items: center; }
-
-  .path { margin: 26px 0 8px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
-  .step { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px;
-          text-decoration: none; display: block; }
-  .step:hover { border-color: var(--accent); }
-  .step b { display: block; color: var(--accent); font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
-  .step span { display: block; font-weight: 600; margin: 2px 0 4px; }
-  .step small { color: var(--muted); }
-
-  section { margin-top: 30px; }
-  section h2 { font-size: 1.25rem; margin: 0 0 4px; }
-  section p.desc { margin: 0 0 12px; color: var(--muted); font-size: .92rem; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px;
-          display: flex; flex-direction: column; gap: 6px; }
-  .card:hover { border-color: var(--accent); }
-  .card .top { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
-  .card a.name { font-weight: 600; text-decoration: none; word-break: break-word; }
-  .card a.name:hover { text-decoration: underline; color: var(--accent); }
-  .card .owner { font-size: .78rem; color: var(--muted); }
-  .card .stars { font-size: .8rem; color: var(--muted); white-space: nowrap; }
-  .card p { margin: 0; font-size: .9rem; }
-  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 4px; }
-  .tag { font-size: .72rem; background: var(--tag); padding: 2px 8px; border-radius: 4px; color: var(--muted); }
-  .note { font-size: .8rem; background: var(--warn-bg); color: var(--warn); padding: 6px 8px; border-radius: 6px; }
-  .note a { font-weight: 600; }
-  .empty { color: var(--muted); font-style: italic; display: none; }
-  footer { margin: 40px 0 30px; color: var(--muted); font-size: .82rem; border-top: 1px solid var(--border); padding-top: 14px; }
-</style>
+<title>Microchip FPGA Open-Source Hub | PolarFire SoC, PolarFire, Mi-V, SmartHLS, VectorBlox</title>
+<meta name="description" content="Find every public Microchip FPGA repository on GitHub: PolarFire SoC and PolarFire reference designs, embedded software, Linux, RTOS, Mi-V soft RISC-V, SmartHLS, and VectorBlox Edge AI.">
+<meta name="theme-color" content="#1e2d3b">
+<meta property="og:title" content="Microchip FPGA Open-Source Hub">
+<meta property="og:description" content="Reference designs, embedded software, Linux, RTOS, HLS, and Edge AI for Microchip FPGAs, in one place.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%231a8fd1'/%3E%3Crect x='9' y='9' width='14' height='14' fill='%23f7941d'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-<header>
-  <div class="wrap">
-    <h1>Microchip FPGA on GitHub</h1>
-    <p class="sub">One place to find PolarFire&reg; and PolarFire SoC repositories: reference designs, embedded software, Linux, RTOS, HLS, and tools.</p>
-    <div class="orgs">
-      <a href="https://github.com/polarfire-soc">github.com/polarfire-soc</a>
-      <a href="https://github.com/microchip-fpga-solutions">github.com/microchip-fpga-solutions</a>
-      <a href="https://github.com/microchip-fpga">github.com/microchip-fpga</a>
-      <a href="https://github.com/Microchip-Vectorblox">github.com/Microchip-Vectorblox</a>
-      <a href="https://github.com/Mi-V-Soft-RISC-V">github.com/Mi-V-Soft-RISC-V</a>
-      <a href="https://github.com/Mi-V-Ecosystem">github.com/Mi-V-Ecosystem</a>
-      <a href="https://github.com/linux4microchip">github.com/linux4microchip</a>
-      <a href="https://github.com/MicrochipTech">github.com/MicrochipTech</a>
-    </div>
-    <div class="controls">
-      <input id="q" type="search" placeholder="Search repositories (e.g. icicle, video, zephyr, motor, hls)..." autocomplete="off">
-      <label class="toggle"><input type="checkbox" id="showLegacy"> Show archived / legacy</label>
-    </div>
-    <div class="chips" id="chips" style="margin-top:10px"></div>
+<div class="utility">
+  <div class="container">
+    <span>Open-source resources for Microchip FPGAs and SoC FPGAs</span>
+    <nav aria-label="Utility">
+      <a href="https://www.microchip.com/en-us/products/fpgas-and-plds">FPGAs and PLDs</a>
+      <a href="https://www.microchip.com/polarfiresoc">PolarFire SoC</a>
+      <a href="https://mi-v-ecosystem.github.io/">Mi-V Ecosystem</a>
+    </nav>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="#top" aria-label="Microchip FPGA Open-Source Hub, home">
+      <svg class="brand-mark" viewBox="0 0 38 38" aria-hidden="true"><rect width="38" height="38" rx="4" fill="#1a8fd1"/><rect x="10" y="10" width="18" height="18" fill="none" stroke="#fff" stroke-width="2.4"/><rect x="15" y="15" width="8" height="8" fill="#f7941d"/><path d="M14 4v6M19 4v6M24 4v6M14 28v6M19 28v6M24 28v6M4 14h6M4 19h6M4 24h6M28 14h6M28 19h6M28 24h6" stroke="#fff" stroke-width="1.6"/></svg>
+      <span class="brand-text"><strong>Microchip FPGA</strong><span>Open-Source Hub</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="#product-families">Product Families</a>
+      <a href="#kits">Development Kits</a>
+      <a href="#catalog">Repositories</a>
+      <a href="#resources">Resources</a>
+      <a class="btn btn-accent btn-sm" href="#catalog">Find a Repository</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#231f20" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
   </div>
 </header>
 
-<main class="wrap">
-  <section id="start">
-    <h2>New to PolarFire SoC? Start here</h2>
-    <p class="desc">A suggested learning path, from documentation to a running Linux system.</p>
-    <div class="path">
-      <a class="step" href="https://github.com/polarfire-soc/polarfire-soc-documentation"><b>Step 1</b><span>Read the docs</span><small>Board guides, boot flow, HSS, and Linux how-tos.</small></a>
-      <a class="step" href="#cat-boards"><b>Step 2</b><span>Build a reference design</span><small>Icicle Kit, Discovery Kit, or Video Kit Libero designs.</small></a>
-      <a class="step" href="https://github.com/polarfire-soc/hart-software-services"><b>Step 3</b><span>Boot with HSS</span><small>Hart Software Services: zeroth-stage boot loader and services.</small></a>
-      <a class="step" href="https://github.com/polarfire-soc/polarfire-soc-bare-metal-examples"><b>Step 4</b><span>Run bare-metal examples</span><small>Driver examples for the MSS peripherals.</small></a>
-      <a class="step" href="https://github.com/linux4microchip/meta-mchp"><b>Step 5</b><span>Build Linux</span><small>Yocto (meta-mchp) or Buildroot external tree.</small></a>
-      <a class="step" href="https://github.com/MicrochipTech/fpga-hls-examples"><b>Step 6</b><span>Accelerate with HLS</span><small>SmartHLS examples: C++ to FPGA hardware.</small></a>
-      <a class="step" href="https://github.com/Microchip-Vectorblox/VectorBlox-SDK"><b>Step 7</b><span>Add Edge AI</span><small>VectorBlox SDK: run AI/ML models without reprogramming the FPGA.</small></a>
+<section class="hero" id="top">
+  <div class="container">
+    <div>
+      <h1>Every Microchip FPGA repository. <em>One place.</em></h1>
+      <p class="lead">Reference designs, boot loaders, bare-metal drivers, Linux, RTOS, soft RISC-V, high-level synthesis, and Edge AI. Curated, searchable, and always linked to the latest source.</p>
+      <div class="suggest-host hero-search-wrap">
+        <form class="hero-search" id="hero-search" role="search">
+          <label class="sr-only" for="hero-q">Search repositories</label>
+          <input id="hero-q" type="search" placeholder="Search kits, designs, software... e.g. Icicle, video, Zephyr, motor" autocomplete="off">
+          <button class="btn btn-accent" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-accent" href="#catalog">Browse All Repositories</a>
+        <a class="btn btn-outline" href="#kits">Development Kits</a>
+      </div>
     </div>
-    <p class="desc" style="margin-top:12px">Using a non-SoC PolarFire, RTG4, or SmartFusion2 device? Start with the <a href="#cat-miv">Mi-V soft RISC-V</a> designs and examples.</p>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 440 360" fill="none">
+        <defs>
+          <linearGradient id="pkg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a5168"/><stop offset="1" stop-color="#16222e"/></linearGradient>
+          <linearGradient id="die" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2d4155"/><stop offset="1" stop-color="#1c2a37"/></linearGradient>
+          <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2aa4e6"/><stop offset="1" stop-color="#0a6fae"/></linearGradient>
+        </defs>
+        <g stroke="#c9a06a" stroke-width="3" stroke-linecap="round">
+          <path d="M110 40v-22M150 40v-22M190 40v-22M230 40v-22M270 40v-22M310 40v-22M110 320v22M150 320v22M190 320v22M230 320v22M270 320v22M310 320v22M40 110h-22M40 150h-22M40 190h-22M40 230h-22M40 270h-22M400 110h22M400 150h22M400 190h22M400 230h22M400 270h22"/>
+        </g>
+        <rect x="40" y="40" width="360" height="280" rx="14" fill="url(#pkg)" stroke="#4d6378" stroke-width="2"/>
+        <rect x="70" y="66" width="300" height="228" rx="6" fill="url(#die)" stroke="#4f6a82"/>
+        <g fill="#34506a">
+          <rect x="86" y="82" width="34" height="26" rx="2"/><rect x="126" y="82" width="34" height="26" rx="2"/><rect x="166" y="82" width="34" height="26" rx="2"/><rect x="206" y="82" width="34" height="26" rx="2"/><rect x="246" y="82" width="34" height="26" rx="2"/><rect x="286" y="82" width="34" height="26" rx="2"/><rect x="326" y="82" width="28" height="26" rx="2"/>
+          <rect x="86" y="114" width="34" height="26" rx="2"/><rect x="126" y="114" width="34" height="26" rx="2"/><rect x="286" y="114" width="34" height="26" rx="2"/><rect x="326" y="114" width="28" height="26" rx="2"/>
+          <rect x="86" y="146" width="34" height="26" rx="2"/><rect x="126" y="146" width="34" height="26" rx="2"/><rect x="286" y="146" width="34" height="26" rx="2"/><rect x="326" y="146" width="28" height="26" rx="2"/>
+          <rect x="86" y="178" width="34" height="26" rx="2"/><rect x="126" y="178" width="34" height="26" rx="2"/><rect x="286" y="178" width="34" height="26" rx="2"/><rect x="326" y="178" width="28" height="26" rx="2"/>
+          <rect x="86" y="210" width="34" height="26" rx="2"/><rect x="126" y="210" width="34" height="26" rx="2"/><rect x="166" y="210" width="34" height="26" rx="2"/><rect x="206" y="210" width="34" height="26" rx="2"/><rect x="246" y="210" width="34" height="26" rx="2"/><rect x="286" y="210" width="34" height="26" rx="2"/><rect x="326" y="210" width="28" height="26" rx="2"/>
+          <rect x="86" y="242" width="34" height="36" rx="2"/><rect x="126" y="242" width="34" height="36" rx="2"/><rect x="166" y="242" width="34" height="36" rx="2"/><rect x="206" y="242" width="34" height="36" rx="2"/><rect x="246" y="242" width="34" height="36" rx="2"/><rect x="286" y="242" width="34" height="36" rx="2"/><rect x="326" y="242" width="28" height="36" rx="2"/>
+        </g>
+        <g fill="#f7941d" opacity=".9"><rect x="292" y="120" width="22" height="4"/><rect x="92" y="216" width="22" height="4"/><rect x="212" y="248" width="22" height="4"/><rect x="332" y="88" width="16" height="4"/><rect x="132" y="88" width="22" height="4"/></g>
+        <rect x="166" y="114" width="114" height="90" rx="4" fill="url(#core)" class="pulse"/>
+        <rect x="166" y="114" width="114" height="90" rx="4" fill="none" stroke="#8fd3f5" stroke-width="2"/>
+        <g fill="#fff">
+          <rect x="176" y="124" width="22" height="18" rx="2" opacity=".95"/><rect x="202" y="124" width="22" height="18" rx="2" opacity=".95"/><rect x="228" y="124" width="22" height="18" rx="2" opacity=".95"/><rect x="254" y="124" width="18" height="18" rx="2" opacity=".95"/>
+          <rect x="176" y="146" width="96" height="10" rx="2" opacity=".55"/>
+        </g>
+        <text x="223" y="180" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1">RISC-V</text>
+        <text x="223" y="196" text-anchor="middle" fill="#e3f4fd" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.5">MSS / Mi-V</text>
+        <g stroke="#ffb45e" stroke-width="2.2" class="flow" opacity=".95">
+          <path d="M166 160H120M280 160h6M223 114V108M223 204v6"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<main id="main">
+
+  <section class="section" id="overview" style="padding-bottom:0">
+    <div class="container">
+      <div class="section-head"><div><h2>Overview</h2></div></div>
+      <p class="overview-text">Microchip FPGA open-source content is published across several GitHub organizations: PolarFire SoC software, FPGA solutions, Mi-V soft RISC-V, VectorBlox Edge AI, SmartHLS, and the shared Linux4Microchip BSP. This hub brings them together so you can find the right starting point for your board and application in seconds.</p>
+    </div>
   </section>
 
-  <div id="sections"></div>
-  <p class="empty" id="empty">No repositories match your search.</p>
+  <section class="section" id="product-families">
+    <div class="container">
+      <div class="section-head"><div><h2>Product Families</h2><p>Choose a family to see every related repository.</p></div></div>
+      <div class="families" id="families"></div>
+    </div>
+  </section>
 
-  <footer>
-    <p>Snapshot of public repositories as of <span id="snap">2026-11-18</span>. Star counts refresh live from the GitHub API when available. <span id="live"></span></p>
-    <p>This index only links to existing public repositories. To suggest a missing repository, open an issue or pull request on this page's repository.</p>
-  </footer>
+  <section class="section band" id="kits">
+    <div class="container">
+      <div class="section-head"><div><h2>Development Kits</h2><p>Reference designs, solutions, and demos grouped by board.</p></div></div>
+      <div class="kits" id="kits-grid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="catalog">
+    <div class="container">
+      <div class="section-head">
+        <div><h2>Repository Catalog</h2><p>Search and filter every repository.</p></div>
+      </div>
+      <div class="catalog">
+        <aside class="filters" aria-label="Filters">
+          <div class="filters-head"><strong>Filters</strong><button class="linkbtn" type="button" data-clear>Clear all</button></div>
+          <label class="switch" for="archived">Include archived / legacy <input type="checkbox" id="archived"></label>
+          <details class="facet" open><summary>Category</summary><div class="opts" id="facet-cats"></div></details>
+          <details class="facet" open><summary>Product family</summary><div class="opts" id="facet-fams"></div></details>
+        </aside>
+        <div>
+          <div class="toolbar">
+            <div class="searchbox suggest-host">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <label class="sr-only" for="q">Filter repositories</label>
+              <input id="q" type="search" placeholder="Filter by name, description, kit, language..." autocomplete="off">
+            </div>
+            <label class="sr-only" for="sort">Sort by</label>
+            <select id="sort">
+              <option value="stars">Most popular</option>
+              <option value="updated">Recently updated</option>
+              <option value="name">Name (A&ndash;Z)</option>
+            </select>
+            <div class="viewtoggle" role="group" aria-label="View">
+              <button type="button" data-view="grid" aria-pressed="true" title="Card view"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg><span class="sr-only">Cards</span></button>
+              <button type="button" data-view="table" aria-pressed="false" title="Table view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg><span class="sr-only">Table</span></button>
+            </div>
+          </div>
+          <div class="resultbar">
+            <span class="count" id="result-count" aria-live="polite"></span>
+            <div class="active-filters" id="pills"></div>
+          </div>
+          <div id="results"></div>
+          <div class="more-wrap"><button class="btn btn-ghost" type="button" id="more" hidden>Show all</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section band" id="resources">
+    <div class="container">
+      <div class="section-head"><div><h2>Documentation and Resources</h2></div></div>
+      <div class="resources">
+        <div class="res">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg>Documentation</h3>
+          <ul>
+            <li><a href="https://github.com/polarfire-soc/polarfire-soc-documentation">PolarFire SoC documentation</a></li>
+            <li><a href="https://github.com/Mi-V-Soft-RISC-V/miv-rv32-documentation">Mi-V RV32 documentation</a></li>
+            <li><a href="https://github.com/MicrochipTech/fpga-hls-docs">SmartHLS documentation</a></li>
+            <li><a href="https://github.com/Mi-V-Ecosystem/SoftConsole-Documentation">SoftConsole documentation</a></li>
+          </ul>
+        </div>
+        <div class="res">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18"/></svg>Microchip product pages</h3>
+          <ul>
+            <li><a href="https://www.microchip.com/en-us/products/fpgas-and-plds">FPGAs and PLDs</a></li>
+            <li><a href="https://www.microchip.com/polarfiresoc">PolarFire SoC</a></li>
+            <li><a href="https://www.microchip.com/en-us/development-tool/mpfs-disco-kit">PolarFire SoC Discovery Kit</a></li>
+            <li><a href="https://mi-v-ecosystem.github.io/">Mi-V Ecosystem</a></li>
+          </ul>
+        </div>
+        <div class="res">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c.6-3.6 3-5.5 6-5.5s5.4 1.9 6 5.5"/><circle cx="17" cy="9" r="2.4"/><path d="M16.5 14.6c2.4.2 4 1.8 4.5 4.6"/></svg>Learning</h3>
+          <ul>
+            <li><a href="https://github.com/MicrochipTech/veryVerilog">veryVerilog: learn Verilog basics</a></li>
+            <li><a href="https://github.com/polarfire-soc/polarfire-soc-bare-metal-examples">Bare-metal examples</a></li>
+            <li><a href="https://github.com/MicrochipTech/fpga-hls-examples">SmartHLS examples</a></li>
+            <li><a href="https://github.com/MicrochipTech/EdgeAI-Applications-Repository">Edge AI applications</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <div><h2>Missing a repository?</h2><p>Help keep this hub complete. Suggest an addition or a correction.</p></div>
+      <a class="btn btn-accent" href="https://github.com/adigo91/fpga-index/issues">Suggest a repository</a>
+    </div>
+  </section>
 </main>
 
-<script>
-// ---------------------------------------------------------------------------
-// Repository catalogue. Edit this list to add/remove entries.
-// cat: category id (see CATS). tags: free-form filter keywords.
-// legacy: hidden by default; replace: "owner/repo" that supersedes it.
-// ---------------------------------------------------------------------------
-const CATS = [
-  { id: "boards",    title: "Board reference designs",  desc: "Libero SoC reference designs for Microchip development kits." },
-  { id: "solutions", title: "Application solutions",    desc: "Complete solutions for video, camera, motor control, TSN, and SoM platforms." },
-  { id: "embedded",  title: "Embedded software (bare metal and boot)", desc: "HSS boot loader, MSS drivers, bare-metal and AMP examples." },
-  { id: "linux",     title: "Linux",                    desc: "Kernel, U-Boot, Yocto, Buildroot, device tree overlays, and Linux applications." },
-  { id: "rtos",      title: "RTOS",                     desc: "Zephyr and RTEMS support for PolarFire SoC." },
-  { id: "miv",       title: "Mi-V soft RISC-V",         desc: "Mi-V RV32 soft processor designs, bare-metal examples, and HAL for PolarFire, RTG4, and partner boards." },
-  { id: "hls",       title: "SmartHLS",                 desc: "SmartHLS examples, libraries, and documentation: C++ to FPGA hardware." },
-  { id: "ai",        title: "Edge AI (VectorBlox)",     desc: "VectorBlox Accelerator SDK, demos, and reference designs for AI/ML inference on PolarFire and PolarFire SoC." },
-  { id: "tools",     title: "Programming, debug and tools", desc: "JTAG programming, debugging, configuration generators, and learning resources." },
-  { id: "legacy",    title: "Archived and legacy",      desc: "Kept for reference. Prefer the replacement linked on each card." }
-];
-
-const REPOS = [
-  // Board reference designs
-  { r: "polarfire-soc/icicle-kit-reference-design", d: "PolarFire SoC Icicle Kit Libero reference design.", cat: "boards", tags: ["icicle", "libero", "tcl"], s: 56 },
-  { r: "polarfire-soc/polarfire-soc-discovery-kit-reference-design", d: "PolarFire SoC Discovery Kit reference design and product page.", cat: "boards", tags: ["discovery", "libero", "tcl"], s: 30 },
-  { r: "polarfire-soc/polarfire-soc-video-kit-reference-design", d: "PolarFire SoC Video Kit Libero reference design.", cat: "boards", tags: ["video", "libero", "tcl"], s: 10 },
-  { r: "polarfire-soc/icicle-kit-minimal-bring-up-design-bitstream-builder", d: "Scripts to build the Icicle Kit minimal bring-up design bitstream.", cat: "boards", tags: ["icicle", "bring-up", "python"], s: 6 },
-  { r: "polarfire-soc/icicle-kit-minimal-bring-up-design-hdl-src", d: "HDL sources for the Icicle Kit minimal bring-up design.", cat: "boards", tags: ["icicle", "bring-up", "hdl"], s: 0 },
-
-  // Application solutions
-  { r: "microchip-fpga-solutions/mpfs250-video-kit-drm", d: "DRM reference design for the PolarFire SoC MPFS250 Video Kit.", cat: "solutions", tags: ["video", "linux", "drm"], s: 0 },
-  { r: "microchip-fpga-solutions/mpfs250-video-kit-mjpeg-streaming", d: "Motion JPEG video streaming over Ethernet for the PolarFire SoC MPFS250 Video Kit.", cat: "solutions", tags: ["video", "ethernet", "mjpeg"], s: 0 },
-  { r: "microchip-fpga-solutions/mpf300-video-kit-sdi-hdmi", d: "Bidirectional SDI/HDMI protocol converter for the PolarFire MPF300 Video Kit.", cat: "solutions", tags: ["video", "sdi", "hdmi"], s: 0 },
-  { r: "microchip-fpga-solutions/mpf300-video-kit-dprx-dptx", d: "DisplayPort RX to TX passthrough for the PolarFire MPF300 Video Kit.", cat: "solutions", tags: ["video", "displayport"], s: 1 },
-  { r: "microchip-fpga-solutions/mpf200-esb-mipi", d: "Four-camera (MIPI IMX477) design for the PolarFire Ethernet Sensor Bridge Kit.", cat: "solutions", tags: ["camera", "mipi", "video"], s: 1 },
-  { r: "microchip-fpga-solutions/mpf100-qcxp-kit-slvs-cxp", d: "SLVS to CoaXPress converter for the PolarFire Quad Channel CXP-12 Kit.", cat: "solutions", tags: ["camera", "coaxpress", "video"], s: 1 },
-  { r: "microchip-fpga-solutions/mpfs095-motor-kit-bldc", d: "BLDC motor control for the PolarFire SoC Motor Control Kit (MPFS095 SoM).", cat: "solutions", tags: ["motor", "industrial"], s: 2 },
-  { r: "microchip-fpga-solutions/mpfs095-motor-kit-tsn", d: "CoreTSN-based solution for the PolarFire SoC MPFS095 Motor Control Kit.", cat: "solutions", tags: ["motor", "tsn", "ethernet", "industrial"], s: 0 },
-  { r: "microchip-fpga-solutions/mpfs095-som-fcsg536e-base", d: "Base reference design for the PolarFire SoC MPFS095 SoM.", cat: "solutions", tags: ["som", "libero"], s: 0 },
-
-  // Embedded software
-  { r: "polarfire-soc/hart-software-services", d: "Hart Software Services (HSS): boot loader and runtime services.", cat: "embedded", tags: ["boot", "hss"], s: 64 },
-  { r: "polarfire-soc/polarfire-soc-bare-metal-examples", d: "Bare-metal example projects for PolarFire SoC.", cat: "embedded", tags: ["bare-metal", "drivers"], s: 55 },
-  { r: "polarfire-soc/polarfire-soc-amp-examples", d: "Asymmetric multiprocessing (AMP) examples.", cat: "embedded", tags: ["amp", "linux", "rtos"], s: 8 },
-  { r: "polarfire-soc/platform", d: "Platform sources (HAL and drivers) shared by PolarFire SoC software projects.", cat: "embedded", tags: ["hal", "drivers"], s: 12 },
-
-  // Linux
-  { r: "linux4microchip/meta-mchp", d: "Yocto BSP layer for Microchip devices, including PolarFire SoC.", cat: "linux", tags: ["yocto"], s: 16 },
-  { r: "linux4microchip/meta-mchp-manifest", d: "Repo manifest for meta-mchp Yocto builds.", cat: "linux", tags: ["yocto"], s: 0 },
-  { r: "linux4microchip/buildroot-external-microchip", d: "Buildroot external tree for Microchip SoCs.", cat: "linux", tags: ["buildroot"], s: 32 },
-  { r: "linux4microchip/linux", d: "Microchip Linux kernel source tree.", cat: "linux", tags: ["kernel"], s: 29 },
-  { r: "linux4microchip/u-boot-mchp", d: "U-Boot for Microchip devices.", cat: "linux", tags: ["u-boot", "boot"], s: 12 },
-  { r: "linux4microchip/dt-overlay-mchp", d: "Device tree overlays for the Microchip Linux kernel.", cat: "linux", tags: ["device-tree"], s: 6 },
-  { r: "linux4microchip/libcamera-mchp", d: "libcamera port for Microchip processors, including PolarFire SoC.", cat: "linux", tags: ["camera", "video"], s: 1 },
-  { r: "polarfire-soc/polarfire-soc-linux-examples", d: "Linux user-space examples for PolarFire SoC.", cat: "linux", tags: ["examples"], s: 16 },
-  { r: "microchip-fpga-solutions/linux4polarfire", d: "Linux kernel tree for PolarFire SoC based solutions.", cat: "linux", tags: ["kernel", "solutions"], s: 0 },
-  { r: "microchip-fpga-solutions/dt-overlay4polarfire", d: "Device tree overlays for the linux4polarfire kernel.", cat: "linux", tags: ["device-tree", "solutions"], s: 0 },
-  { r: "microchip-fpga-solutions/meta-mchp-fpga-solns", d: "Yocto layer for PolarFire SoC FPGA solutions.", cat: "linux", tags: ["yocto", "solutions"], s: 0 },
-  { r: "microchip-fpga-solutions/meta-mchp-fpga-solns-manifest", d: "Repo manifest for PolarFire SoC FPGA solutions.", cat: "linux", tags: ["yocto", "solutions"], s: 0 },
-  { r: "microchip-fpga-solutions/mchp-fpga-solns-linux-apps", d: "Linux demos and applications for PolarFire SoC.", cat: "linux", tags: ["examples", "solutions"], s: 1 },
-
-  // RTOS
-  { r: "polarfire-soc/zephyr", d: "Zephyr RTOS fork with PolarFire SoC support.", cat: "rtos", tags: ["zephyr"], s: 5, fork: true },
-  { r: "polarfire-soc/polarfire-soc-zephyr-applications", d: "Zephyr test and demo applications for PolarFire SoC.", cat: "rtos", tags: ["zephyr", "examples"], s: 6 },
-  { r: "polarfire-soc/zephyr-applications", d: "Zephyr applications for PolarFire SoC.", cat: "rtos", tags: ["zephyr", "examples"], s: 3 },
-  { r: "polarfire-soc/zephyr-mpfs-hal_microchip", d: "Zephyr HAL module for PolarFire SoC (MPFS).", cat: "rtos", tags: ["zephyr", "hal"], s: 1, fork: true },
-  { r: "polarfire-soc/rtems", d: "RTEMS real-time kernel fork with PolarFire SoC BSP work.", cat: "rtos", tags: ["rtems"], s: 5, fork: true },
-
-  // Mi-V soft RISC-V
-  { r: "Mi-V-Soft-RISC-V/miv-rv32-bare-metal-examples", d: "Bare-metal example projects for Mi-V RV32 soft processors.", cat: "miv", tags: ["mi-v", "risc-v", "bare-metal"], s: 12 },
-  { r: "Mi-V-Soft-RISC-V/platform", d: "Mi-V platform sources: HAL and drivers for Mi-V RV32 soft processors.", cat: "miv", tags: ["mi-v", "risc-v", "hal", "drivers"], s: 5 },
-  { r: "Mi-V-Soft-RISC-V/miv-rv32-documentation", d: "Documentation for Mi-V RV32 soft processors.", cat: "miv", tags: ["mi-v", "risc-v", "docs"], s: 0 },
-  { r: "Mi-V-Soft-RISC-V/PolarFire-Eval-Kit", d: "Mi-V soft RISC-V Libero designs for the PolarFire Evaluation Kit.", cat: "miv", tags: ["mi-v", "risc-v", "libero", "polarfire"], s: 0 },
-  { r: "Mi-V-Soft-RISC-V/PolarFire-FPGA-Splash-Kit", d: "Mi-V soft RISC-V Libero designs for the PolarFire Splash Kit.", cat: "miv", tags: ["mi-v", "risc-v", "libero", "polarfire"], s: 1 },
-  { r: "Mi-V-Soft-RISC-V/RTG4-Development-Kit", d: "Mi-V soft RISC-V Libero designs for the RTG4 Development Kit.", cat: "miv", tags: ["mi-v", "risc-v", "libero", "rtg4", "space"], s: 0 },
-  { r: "Mi-V-Soft-RISC-V/Future-Avalanche-Board", d: "Mi-V soft RISC-V Libero designs for the Future Electronics Avalanche board.", cat: "miv", tags: ["mi-v", "risc-v", "libero", "partner"], s: 0 },
-  { r: "Mi-V-Soft-RISC-V/Arrow-Everest-Board", d: "Mi-V soft RISC-V Libero designs for the Arrow Everest board.", cat: "miv", tags: ["mi-v", "risc-v", "libero", "partner"], s: 0 },
-
-  // SmartHLS
-  { r: "MicrochipTech/fpga-hls-examples", d: "Open-source SmartHLS examples for Microchip FPGAs.", cat: "hls", tags: ["smarthls", "c++"], s: 57 },
-  { r: "MicrochipTech/fpga-hls-libraries", d: "SmartHLS libraries for Microchip FPGAs.", cat: "hls", tags: ["smarthls", "c++"], s: 15 },
-  { r: "MicrochipTech/fpga-hls-docs", d: "SmartHLS documentation.", cat: "hls", tags: ["smarthls", "docs"], s: 3 },
-
-  // Edge AI (VectorBlox)
-  { r: "Microchip-Vectorblox/VectorBlox-SDK", d: "VectorBlox 3.1.1 Accelerator SDK: software-based AI/ML deployment on PolarFire FPGAs and SoCs without reprogramming the FPGA.", cat: "ai", tags: ["vectorblox", "ai", "ml", "python"], s: 28 },
-  { r: "Microchip-Vectorblox/VectorBlox-SoC-Video-Kit-Demo", d: "VectorBlox 3.1 demo for the PolarFire SoC Video Kit.", cat: "ai", tags: ["vectorblox", "ai", "video"], s: 4 },
-  { r: "Microchip-Vectorblox/VectorBlox-Video-Kit-Demo", d: "VectorBlox demo for the PolarFire Video Kit (SDK 2.0.3).", cat: "ai", tags: ["vectorblox", "ai", "video"], s: 3 },
-  { r: "Microchip-Vectorblox/VectorBlox-Discovery-Kit-Reference-Design", d: "Starting point for a VectorBlox 3.1.1 solution on the PolarFire SoC Discovery Kit.", cat: "ai", tags: ["vectorblox", "ai", "discovery"], s: 0 },
-  { r: "Microchip-Vectorblox/VectorBlox-Compression", d: "Python module to compress PyTorch models during training for the VectorBlox 3.1.1 Accelerator.", cat: "ai", tags: ["vectorblox", "ai", "pytorch", "python"], s: 0 },
-  { r: "Microchip-Vectorblox/assets", d: "Shared resources used by the other VectorBlox repositories.", cat: "ai", tags: ["vectorblox"], s: 0 },
-  { r: "MicrochipTech/EdgeAI-Applications-Repository", d: "Edge AI application examples for Microchip MCUs, MPUs, FPGAs, and DSCs.", cat: "ai", tags: ["ai", "ml"], s: 5 },
-
-  // Tools
-  { r: "polarfire-soc/polarfire-soc-documentation", d: "PolarFire SoC documentation: boards, boot, HSS, Linux, and more.", cat: "tools", tags: ["docs", "getting-started"], s: 80 },
-  { r: "microchip-fpga/directc", d: "DirectC: program PolarFire / PolarFire SoC over JTAG from a BeagleBone Black or Raspberry Pi.", cat: "tools", tags: ["programming", "jtag"], s: 10 },
-  { r: "microchip-fpga/openocd", d: "OpenOCD for Microchip FPGA devices.", cat: "tools", tags: ["debug", "jtag"], s: 1 },
-  { r: "polarfire-soc/polarfire-soc-configuration-generator", d: "Generates MSS configuration header files from the XML MSS description.", cat: "tools", tags: ["mss", "python"], s: 3 },
-  { r: "MicrochipTech/adg_fpga_reconfiguration", d: "FPGA reconfiguration from a microcontroller example.", cat: "tools", tags: ["programming", "mcu"], s: 6 },
-  { r: "MicrochipTech/veryVerilog", d: "Learn Verilog basics the easy way with the world's smallest FPGA.", cat: "tools", tags: ["learning", "verilog", "training"], s: 16 },
-  { r: "Mi-V-Ecosystem/SoftConsole-Documentation", d: "Documentation for SoftConsole, the Eclipse-based IDE for RISC-V software development.", cat: "tools", tags: ["softconsole", "ide", "risc-v", "docs"], s: 0 },
-  { r: "Mi-V-Ecosystem/mi-v-ecosystem.github.io", d: "Source of the Mi-V Ecosystem web pages (GitHub Pages site).", cat: "tools", tags: ["mi-v", "risc-v", "docs"], s: 1 },
-
-  // Archived and legacy
-  { r: "polarfire-soc/meta-polarfire-soc-yocto-bsp", d: "Former PolarFire SoC Yocto BSP (archived).", cat: "legacy", tags: ["yocto"], s: 61, legacy: true, replace: "linux4microchip/meta-mchp" },
-  { r: "polarfire-soc/polarfire-soc-buildroot-sdk", d: "Former PolarFire SoC Buildroot SDK (archived).", cat: "legacy", tags: ["buildroot"], s: 24, legacy: true, replace: "linux4microchip/buildroot-external-microchip" },
-  { r: "polarfire-soc/polarfire-soc-yocto-manifests", d: "Former Yocto manifests (no longer maintained).", cat: "legacy", tags: ["yocto"], s: 0, legacy: true, replace: "linux4microchip/meta-mchp-manifest" },
-  { r: "polarfire-soc/linux", d: "Former Linux fork (archived).", cat: "legacy", tags: ["kernel"], s: 5, legacy: true, replace: "linux4microchip/linux" },
-  { r: "polarfire-soc/u-boot", d: "Former U-Boot fork (archived).", cat: "legacy", tags: ["u-boot"], s: 3, legacy: true, replace: "linux4microchip/u-boot-mchp" },
-  { r: "polarfire-soc/polarfire-soc-bare-metal-library", d: "Original bare-metal drivers library (not updated since 2022).", cat: "legacy", tags: ["bare-metal", "drivers"], s: 25, legacy: true, replace: "polarfire-soc/polarfire-soc-bare-metal-examples" },
-  { r: "polarfire-soc/zephyr-archive-Dec-2021", d: "Temporary Zephyr development repository (2021).", cat: "legacy", tags: ["zephyr"], s: 2, legacy: true, replace: "polarfire-soc/zephyr" },
-  { r: "microchip-fpga-solutions/linux4polarfire-legacy", d: "Legacy kernel tree for PolarFire SoC solutions.", cat: "legacy", tags: ["kernel", "solutions"], s: 1, legacy: true, replace: "microchip-fpga-solutions/linux4polarfire" },
-  { r: "microchip-fpga-solutions/dt-overlay4polarfire-legacy", d: "Legacy device tree overlays for PolarFire SoC solutions.", cat: "legacy", tags: ["device-tree", "solutions"], s: 0, legacy: true, replace: "microchip-fpga-solutions/dt-overlay4polarfire" },
-  { r: "polarfire-soc/apps", d: "Early application repository (2021).", cat: "legacy", tags: ["examples"], s: 3, legacy: true },
-  { r: "RISCV-on-Microsemi-FPGA", org: true, d: "Original Microsemi RISC-V organization: 31 archived repositories (FreeRTOS, SoftConsole, IGLOO2/SmartFusion2/PolarFire/RTG4 sample designs).", cat: "legacy", tags: ["mi-v", "risc-v", "smartfusion2", "igloo2", "organization"], s: 0, legacy: true, replace: "Mi-V-Soft-RISC-V" },
-  { r: "Microsemi-SoC-IP", org: true, d: "Original Microsemi PolarFire SoC Linux organization: 8 archived repositories (Linux, U-Boot, Buildroot, OpenSBI, QEMU).", cat: "legacy", tags: ["linux", "organization"], s: 0, legacy: true, replace: "linux4microchip" }
-];
-
-// Quick filter chips (matched against name, description, and tags).
-const CHIPS = ["icicle", "discovery", "video", "camera", "motor", "linux", "yocto", "zephyr", "bare-metal", "mi-v", "rtg4", "smarthls", "vectorblox", "ai", "jtag"];
-
-// ---------------------------------------------------------------------------
-const $ = (s) => document.querySelector(s);
-const esc = (t) => String(t).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-let activeChip = null;
-
-function card(x) {
-  const [owner, name] = x.org ? ["GitHub organization", x.r] : x.r.split("/");
-  const tags = x.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("");
-  const fork = x.fork ? `<span class="tag">fork</span>` : "";
-  const repl = x.replace
-    ? `<div class="note">Use instead: <a href="https://github.com/${esc(x.replace)}">${esc(x.replace)}</a></div>` : "";
-  return `<div class="card" data-r="${esc(x.r)}">
-    <div class="top">
-      <div><a class="name" href="https://github.com/${esc(x.r)}">${esc(name)}</a><div class="owner">${esc(owner)}</div></div>
-      ${x.org ? "" : `<span class="stars" title="GitHub stars">&#9733; <span class="s">${x.s}</span></span>`}
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>Microchip FPGA Open-Source Hub</h4>
+        <p style="margin:0 0 10px">A curated index of public Microchip FPGA repositories on GitHub.</p>
+        <p style="margin:0" id="live-note">Loading live data from GitHub&hellip;</p>
+      </div>
+      <div>
+        <h4>Product families</h4>
+        <ul><li><a href="#product-families">PolarFire SoC</a></li><li><a href="#product-families">PolarFire FPGA</a></li><li><a href="#product-families">Mi-V RISC-V</a></li><li><a href="#product-families">SmartHLS</a></li><li><a href="#product-families">VectorBlox Edge AI</a></li></ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul><li><a href="#kits">Development kits</a></li><li><a href="#catalog">Repository catalog</a></li><li><a href="#resources">Resources</a></li></ul>
+      </div>
+      <div>
+        <h4>Microchip</h4>
+        <ul><li><a href="https://www.microchip.com/en-us/products/fpgas-and-plds">FPGAs and PLDs</a></li><li><a href="https://www.microchip.com/polarfiresoc">PolarFire SoC</a></li><li><a href="https://github.com/MicrochipTech">MicrochipTech on GitHub</a></li></ul>
+      </div>
     </div>
-    <p>${esc(x.d)}</p>${repl}
-    <div class="meta">${tags}${fork}</div>
-  </div>`;
-}
+    <div class="legal">
+      <span>&copy; <span id="year">2026</span> Community-maintained index. Not an official Microchip Technology Inc. website.</span>
+      <span>Microchip and Microchip product names are trademarks or registered trademarks of Microchip Technology Incorporated in the U.S.A. and other countries. Other names are the property of their respective owners.</span>
+    </div>
+  </div>
+</footer>
 
-function render() {
-  const q = $("#q").value.trim().toLowerCase();
-  const showLegacy = $("#showLegacy").checked;
-  const terms = q.split(/\s+/).filter(Boolean);
-  let total = 0;
-  const html = CATS.map((c) => {
-    if (c.id === "legacy" && !showLegacy) return "";
-    const items = REPOS.filter((x) => x.cat === c.id).filter((x) => {
-      const hay = (x.r + " " + x.d + " " + x.tags.join(" ")).toLowerCase();
-      if (activeChip && !hay.includes(activeChip)) return false;
-      return terms.every((t) => hay.includes(t));
-    }).sort((a, b) => b.s - a.s);
-    total += items.length;
-    if (!items.length) return "";
-    return `<section id="cat-${c.id}"><h2>${esc(c.title)} <small style="color:var(--muted);font-weight:400">(${items.length})</small></h2>
-      <p class="desc">${esc(c.desc)}</p><div class="grid">${items.map(card).join("")}</div></section>`;
-  }).join("");
-  $("#sections").innerHTML = html;
-  $("#empty").style.display = total ? "none" : "block";
-  $("#start").style.display = q || activeChip ? "none" : "";
-}
-
-function chips() {
-  $("#chips").innerHTML = CHIPS.map((c) => `<button class="chip" data-c="${c}">${c}</button>`).join("");
-  $("#chips").addEventListener("click", (e) => {
-    const b = e.target.closest(".chip"); if (!b) return;
-    activeChip = activeChip === b.dataset.c ? null : b.dataset.c;
-    document.querySelectorAll(".chip").forEach((el) => el.classList.toggle("on", el.dataset.c === activeChip));
-    render();
-  });
-}
-
-// Optional: refresh star counts live (one request per org; falls back to snapshot).
-async function refreshStars() {
-  const owners = [...new Set(REPOS.filter((x) => !x.org).map((x) => x.r.split("/")[0]))];
-  const live = {};
-  try {
-    for (const o of owners) {
-      const url = o === "MicrochipTech"
-        ? "https://api.github.com/search/repositories?q=org:MicrochipTech+fpga&per_page=100"
-        : `https://api.github.com/orgs/${o}/repos?per_page=100`;
-      const res = await fetch(url, { headers: { Accept: "application/vnd.github+json" } });
-      if (!res.ok) throw new Error(res.status);
-      const data = await res.json();
-      (Array.isArray(data) ? data : data.items).forEach((r) => { live[r.full_name.toLowerCase()] = r.stargazers_count; });
-    }
-    REPOS.forEach((x) => { const v = live[x.r.toLowerCase()]; if (v !== undefined) x.s = v; });
-    $("#live").textContent = "Live star counts loaded.";
-    render();
-  } catch (e) {
-    $("#live").textContent = "(Showing snapshot star counts.)";
-  }
-}
-
-$("#q").addEventListener("input", render);
-$("#showLegacy").addEventListener("change", render);
-chips();
-render();
-refreshStars();
-</script>
+<script src="data.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

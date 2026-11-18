@@ -29,6 +29,7 @@ Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficie
 | <img src="https://avatars.githubusercontent.com/u/73501811?s=80" width="40" alt=""> | **[VectorBlox&trade; Edge AI](https://github.com/Microchip-Vectorblox)** | AI/ML inference SDK, model compression, and kit demos |
 | <img src="https://avatars.githubusercontent.com/u/8910143?s=80" width="40" alt=""> | **[SmartHLS&trade;](https://github.com/MicrochipTech/fpga-hls-examples)** | High-level synthesis [examples](https://github.com/MicrochipTech/fpga-hls-examples) and [libraries](https://github.com/MicrochipTech/fpga-hls-libraries) |
 | <img src="https://avatars.githubusercontent.com/u/85181005?s=80" width="40" alt=""> | **[Linux4Microchip](https://github.com/linux4microchip)** | Kernel, U-Boot, Yocto (meta-mchp), Buildroot, device tree overlays |
+| <img src="https://avatars.githubusercontent.com/u/183646887?s=80" width="40" alt=""> | **[Zephyr4Microchip](https://github.com/Zephyr4Microchip)** | Zephyr RTOS, HAL module, and Zephyr SDK for Microchip devices |
 
 ---
 
@@ -69,7 +70,7 @@ Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficie
 
 **Linux** &nbsp; [linux](https://github.com/linux4microchip/linux) &middot; [u-boot-mchp](https://github.com/linux4microchip/u-boot-mchp) &middot; [meta-mchp](https://github.com/linux4microchip/meta-mchp) &middot; [buildroot-external-microchip](https://github.com/linux4microchip/buildroot-external-microchip) &middot; [dt-overlay-mchp](https://github.com/linux4microchip/dt-overlay-mchp) &middot; [polarfire-soc-linux-examples](https://github.com/polarfire-soc/polarfire-soc-linux-examples)
 
-**RTOS** &nbsp; [zephyr](https://github.com/polarfire-soc/zephyr) &middot; [polarfire-soc-zephyr-applications](https://github.com/polarfire-soc/polarfire-soc-zephyr-applications) &middot; [rtems](https://github.com/polarfire-soc/rtems)
+**RTOS** &nbsp; [Zephyr4Microchip/zephyr](https://github.com/Zephyr4Microchip/zephyr) &middot; [hal_microchip](https://github.com/Zephyr4Microchip/hal_microchip) &middot; [microchip-zsdk](https://github.com/Zephyr4Microchip/microchip-zsdk) &middot; [polarfire-soc/zephyr](https://github.com/polarfire-soc/zephyr) &middot; [polarfire-soc-zephyr-applications](https://github.com/polarfire-soc/polarfire-soc-zephyr-applications) &middot; [rtems](https://github.com/polarfire-soc/rtems)
 
 **Bare metal and boot** &nbsp; [hart-software-services](https://github.com/polarfire-soc/hart-software-services) &middot; [polarfire-soc-bare-metal-examples](https://github.com/polarfire-soc/polarfire-soc-bare-metal-examples) &middot; [polarfire-soc-amp-examples](https://github.com/polarfire-soc/polarfire-soc-amp-examples) &middot; [platform](https://github.com/polarfire-soc/platform)
 
@@ -79,7 +80,7 @@ Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficie
 
 **Mi-V soft RISC-V** &nbsp; [miv-rv32-bare-metal-examples](https://github.com/Mi-V-Soft-RISC-V/miv-rv32-bare-metal-examples) &middot; [platform](https://github.com/Mi-V-Soft-RISC-V/platform) &middot; [miv-rv32-documentation](https://github.com/Mi-V-Soft-RISC-V/miv-rv32-documentation)
 
-**Tools** &nbsp; [SoftConsole-Documentation](https://github.com/Mi-V-Ecosystem/SoftConsole-Documentation)
+**Tools** &nbsp; [directc](https://github.com/microchip-fpga/directc) &middot; [openocd](https://github.com/microchip-fpga/openocd) &middot; [SoftConsole-Documentation](https://github.com/Mi-V-Ecosystem/SoftConsole-Documentation)
 
 ---
 

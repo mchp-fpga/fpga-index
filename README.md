@@ -2,7 +2,7 @@
 
 Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficiency, reliability, and defense-grade security, for Industrial, Medical, Aerospace and Defense, Communications, and AI/ML inferencing applications. This page brings together every public Microchip FPGA repository on GitHub: reference designs, embedded software, Linux, RTOS, soft RISC-V, high-level synthesis, and Edge AI.
 
-[![Search all repositories](https://img.shields.io/badge/Search_all_repositories-f7941d?style=for-the-badge&logo=github&logoColor=1e2d3b&labelColor=f7941d&color=1e2d3b)](https://adigo91.github.io/fpga-index/)
+[![Search all repositories](https://img.shields.io/badge/Search_all_repositories-f7941d?style=for-the-badge&logo=github&logoColor=1e2d3b&labelColor=f7941d&color=1e2d3b)](https://mchp-fpga.github.io/fpga-index/)
 [![Microchip FPGAs](https://img.shields.io/badge/Microchip_FPGAs-1a8fd1?style=for-the-badge)](https://www.microchip.com/en-us/products/fpgas-and-plds)
 [![PolarFire SoC documentation](https://img.shields.io/badge/PolarFire_SoC_docs-1e2d3b?style=for-the-badge)](https://github.com/polarfire-soc/polarfire-soc-documentation)
 
@@ -82,6 +82,6 @@ Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficie
 
 ---
 
-> **Looking for an older repository?** Several repositories have moved. For example, `meta-polarfire-soc-yocto-bsp` is now [meta-mchp](https://github.com/linux4microchip/meta-mchp), and `polarfire-soc-buildroot-sdk` is now [buildroot-external-microchip](https://github.com/linux4microchip/buildroot-external-microchip). The [hub website](https://adigo91.github.io/fpga-index/) lists every archived repository with its replacement.
+> **Looking for an older repository?** Several repositories have moved. For example, `meta-polarfire-soc-yocto-bsp` is now [meta-mchp](https://github.com/linux4microchip/meta-mchp), and `polarfire-soc-buildroot-sdk` is now [buildroot-external-microchip](https://github.com/linux4microchip/buildroot-external-microchip). The [hub website](https://mchp-fpga.github.io/fpga-index/) lists every archived repository with its replacement.
 
-<sub>Community-maintained index, not an official Microchip page. Microchip and Microchip product names are trademarks or registered trademarks of Microchip Technology Incorporated in the U.S.A. and other countries. [Suggest a repository](https://github.com/adigo91/fpga-index/issues).</sub>
+<sub>Community-maintained index, not an official Microchip page. Microchip and Microchip product names are trademarks or registered trademarks of Microchip Technology Incorporated in the U.S.A. and other countries. [Suggest a repository](https://github.com/mchp-fpga/fpga-index/issues).</sub>

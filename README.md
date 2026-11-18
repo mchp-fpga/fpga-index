@@ -31,9 +31,8 @@ Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficie
 | <img src="https://avatars.githubusercontent.com/u/247337802?s=80" width="40" alt=""> | **[FPGA Solutions](https://github.com/microchip-fpga-solutions)** | Complete solutions: video (SDI, HDMI, DisplayPort, DRM, MJPEG), MIPI cameras, CoaXPress, motor control, TSN |
 | <img src="https://avatars.githubusercontent.com/u/69243549?s=80" width="40" alt=""> | **[Mi-V Soft RISC-V](https://github.com/Mi-V-Soft-RISC-V)** | Mi-V RV32 soft processors: Libero designs, bare-metal examples, HAL for PolarFire, RTG4, and partner boards |
 | <img src="https://avatars.githubusercontent.com/u/73501811?s=80" width="40" alt=""> | **[VectorBlox&trade; Edge AI](https://github.com/Microchip-Vectorblox)** | AI/ML inference SDK, model compression, and kit demos |
-| <img src="https://avatars.githubusercontent.com/u/8910143?s=80" width="40" alt=""> | **[SmartHLS&trade;](https://github.com/MicrochipTech/fpga-hls-examples)** | High-level synthesis [examples](https://github.com/MicrochipTech/fpga-hls-examples), [libraries](https://github.com/MicrochipTech/fpga-hls-libraries), and [documentation](https://github.com/MicrochipTech/fpga-hls-docs) |
+| <img src="https://avatars.githubusercontent.com/u/8910143?s=80" width="40" alt=""> | **[SmartHLS&trade;](https://github.com/MicrochipTech/fpga-hls-examples)** | High-level synthesis [examples](https://github.com/MicrochipTech/fpga-hls-examples) and [libraries](https://github.com/MicrochipTech/fpga-hls-libraries) |
 | <img src="https://avatars.githubusercontent.com/u/85181005?s=80" width="40" alt=""> | **[Linux4Microchip](https://github.com/linux4microchip)** | Kernel, U-Boot, Yocto (meta-mchp), Buildroot, device tree overlays |
-| <img src="https://avatars.githubusercontent.com/u/139750243?s=80" width="40" alt=""> | **[Microchip FPGA Tools](https://github.com/microchip-fpga)** | DirectC JTAG programming and OpenOCD |
 
 ---
 
@@ -78,13 +77,13 @@ Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficie
 
 **Bare metal and boot** &nbsp; [hart-software-services](https://github.com/polarfire-soc/hart-software-services) &middot; [polarfire-soc-bare-metal-examples](https://github.com/polarfire-soc/polarfire-soc-bare-metal-examples) &middot; [polarfire-soc-amp-examples](https://github.com/polarfire-soc/polarfire-soc-amp-examples) &middot; [platform](https://github.com/polarfire-soc/platform)
 
-**SmartHLS&trade;** &nbsp; [fpga-hls-examples](https://github.com/MicrochipTech/fpga-hls-examples) &middot; [fpga-hls-libraries](https://github.com/MicrochipTech/fpga-hls-libraries) &middot; [fpga-hls-docs](https://github.com/MicrochipTech/fpga-hls-docs)
+**SmartHLS&trade;** &nbsp; [fpga-hls-examples](https://github.com/MicrochipTech/fpga-hls-examples) &middot; [fpga-hls-libraries](https://github.com/MicrochipTech/fpga-hls-libraries)
 
-**Edge AI** &nbsp; [VectorBlox-SDK](https://github.com/Microchip-Vectorblox/VectorBlox-SDK) &middot; [VectorBlox-Compression](https://github.com/Microchip-Vectorblox/VectorBlox-Compression) &middot; [EdgeAI-Applications-Repository](https://github.com/MicrochipTech/EdgeAI-Applications-Repository)
+**Edge AI** &nbsp; [VectorBlox-SDK](https://github.com/Microchip-Vectorblox/VectorBlox-SDK) &middot; [VectorBlox-Compression](https://github.com/Microchip-Vectorblox/VectorBlox-Compression)
 
 **Mi-V soft RISC-V** &nbsp; [miv-rv32-bare-metal-examples](https://github.com/Mi-V-Soft-RISC-V/miv-rv32-bare-metal-examples) &middot; [platform](https://github.com/Mi-V-Soft-RISC-V/platform) &middot; [miv-rv32-documentation](https://github.com/Mi-V-Soft-RISC-V/miv-rv32-documentation)
 
-**Tools** &nbsp; [directc](https://github.com/microchip-fpga/directc) &middot; [openocd](https://github.com/microchip-fpga/openocd) &middot; [SoftConsole-Documentation](https://github.com/Mi-V-Ecosystem/SoftConsole-Documentation) &middot; [veryVerilog](https://github.com/MicrochipTech/veryVerilog)
+**Tools** &nbsp; [SoftConsole-Documentation](https://github.com/Mi-V-Ecosystem/SoftConsole-Documentation)
 
 ---
 

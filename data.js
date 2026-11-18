@@ -24,6 +24,8 @@ window.HUB = {
     "Mi-V-Soft-RISC-V":         { name: "Mi-V Soft RISC-V",         id: 69243549,  followers: 41 },
     "Microchip-Vectorblox":     { name: "VectorBlox",               id: 73501811,  followers: 22 },
     "microchip-fpga-solutions": { name: "Microchip FPGA Solutions", id: 247337802, followers: 8 },
+    "Zephyr4Microchip":         { name: "Zephyr4Microchip",         id: 183646887, followers: 32 },
+    "microchip-fpga":           { name: "Microchip FPGA",           id: 139750243, followers: 2 },
     "Mi-V-Ecosystem":           { name: "Mi-V Ecosystem",           id: 36032132,  followers: 2 },
     "MicrochipTech":            { name: "MicrochipTech",            id: 8910143,   followers: null }
   },
@@ -126,6 +128,11 @@ window.HUB = {
     { r: "polarfire-soc/zephyr-applications", d: "Zephyr applications for PolarFire SoC.", cat: "rtos", fam: ["soc", "os"], s: 3, f: 2, u: "2024-12-18", l: "Python" },
     { r: "polarfire-soc/zephyr-mpfs-hal_microchip", d: "Zephyr HAL module for PolarFire SoC (MPFS).", cat: "rtos", fam: ["soc", "os"], s: 1, f: 1, u: "2025-01-17", l: "C", fork: true },
     { r: "polarfire-soc/rtems", d: "RTEMS real-time kernel fork with PolarFire SoC BSP work.", cat: "rtos", fam: ["soc", "os"], s: 5, f: 1, u: "2022-08-12", l: "", fork: true },
+    { r: "Zephyr4Microchip/zephyr", d: "Microchip's Zephyr RTOS repository with support for Microchip devices.", cat: "rtos", fam: ["soc", "os"], s: 12, f: 10, u: "2026-11-11", l: "C", fork: true },
+    { r: "Zephyr4Microchip/microchip-zephyr", d: "Microchip downstream of the upstream Zephyr project.", cat: "rtos", fam: ["soc", "os"], s: 0, f: 4, u: "2026-11-02", l: "C" },
+    { r: "Zephyr4Microchip/hal_microchip", d: "Zephyr HAL module for Microchip devices.", cat: "rtos", fam: ["soc", "os"], s: 2, f: 2, u: "2026-11-02", l: "C", fork: true },
+    { r: "Zephyr4Microchip/microchip-hal", d: "Microchip downstream of the upstream Zephyr hal_microchip module.", cat: "rtos", fam: ["soc", "os"], s: 0, f: 2, u: "2026-11-02", l: "C" },
+    { r: "Zephyr4Microchip/microchip-zsdk", d: "Microchip Zephyr SDK.", cat: "rtos", fam: ["soc", "os"], s: 1, f: 2, u: "2026-11-02", l: "C" },
 
     // Mi-V soft RISC-V
     { r: "Mi-V-Soft-RISC-V/miv-rv32-bare-metal-examples", d: "Bare-metal example projects for Mi-V RV32 soft processors.", cat: "miv", fam: ["miv"], s: 12, f: 6, u: "2026-09-01", l: "C" },
@@ -151,6 +158,8 @@ window.HUB = {
 
     // Tools and documentation
     { r: "polarfire-soc/polarfire-soc-documentation", d: "PolarFire SoC documentation: boards, boot, HSS, Linux, and more.", cat: "tools", fam: ["soc"], s: 80, f: 29, u: "2026-11-17", l: "" },
+    { r: "microchip-fpga/directc", d: "DirectC: program PolarFire and PolarFire SoC over JTAG from a BeagleBone Black or Raspberry Pi.", cat: "tools", fam: ["soc", "pf"], s: 10, f: 2, u: "2023-07-20", l: "C" },
+    { r: "microchip-fpga/openocd", d: "OpenOCD for Microchip FPGA devices.", cat: "tools", fam: ["soc", "pf", "miv"], s: 1, f: 2, u: "2024-10-08", l: "C" },
     { r: "polarfire-soc/polarfire-soc-configuration-generator", d: "Generates MSS configuration header files from the XML MSS description.", cat: "tools", fam: ["soc"], s: 3, f: 0, u: "2021-05-10", l: "Python" },
     { r: "MicrochipTech/adg_fpga_reconfiguration", d: "FPGA reconfiguration from a microcontroller example.", cat: "tools", fam: ["pf"], s: 6, f: 1, u: "2022-07-11", l: "C" },
     { r: "Mi-V-Ecosystem/SoftConsole-Documentation", d: "Documentation for SoftConsole, the Eclipse-based IDE for RISC-V software development.", cat: "tools", fam: ["miv", "soc"], s: 0, f: 1, u: "2025-09-16", l: "HTML" },

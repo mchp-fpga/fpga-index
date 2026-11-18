@@ -1,4 +1,4 @@
-# Microchip FPGA on GitHub
+# Microchip FPGA GitHub Repositories
 
 Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficiency, reliability, and defense-grade security, for Industrial, Medical, Aerospace and Defense, Communications, and AI/ML inferencing applications. This page brings together every public Microchip FPGA repository on GitHub: reference designs, embedded software, Linux, RTOS, soft RISC-V, high-level synthesis, and Edge AI.
 

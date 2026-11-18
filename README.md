@@ -2,10 +2,6 @@
 
 Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficiency, reliability, and defense-grade security, for Industrial, Medical, Aerospace and Defense, Communications, and AI/ML inferencing applications. This page brings together every public Microchip FPGA repository on GitHub: reference designs, embedded software, Linux, RTOS, soft RISC-V, high-level synthesis, and Edge AI.
 
-[![Search all repositories](https://img.shields.io/badge/Search_all_repositories-f7941d?style=for-the-badge&logo=github&logoColor=1e2d3b&labelColor=f7941d&color=1e2d3b)](https://mchp-fpga.github.io/fpga-index/)
-[![Microchip FPGAs](https://img.shields.io/badge/Microchip_FPGAs-1a8fd1?style=for-the-badge)](https://www.microchip.com/en-us/products/fpgas-and-plds)
-[![PolarFire SoC documentation](https://img.shields.io/badge/PolarFire_SoC_docs-1e2d3b?style=for-the-badge)](https://github.com/polarfire-soc/polarfire-soc-documentation)
-
 ---
 
 ## Start here

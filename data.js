@@ -63,7 +63,7 @@ window.HUB = {
     { id: "disco",    name: "PolarFire SoC Discovery Kit",           fam: "soc", url: "https://www.microchip.com/en-us/development-tool/mpfs-disco-kit" },
     { id: "socvideo", name: "PolarFire SoC Video Kit",               fam: "soc" },
     { id: "motor",    name: "PolarFire SoC Motor Control Kit (MPFS095 SoM)", fam: "soc" },
-    { id: "pfvideo",  name: "PolarFire Video Kit (MPF300)",          fam: "pf" },
+    { id: "pfvideo",  name: "PolarFire Video Kit",          fam: "pf" },
     { id: "esb",      name: "PolarFire Ethernet Sensor Bridge Kit",  fam: "pf" },
     { id: "cxp",      name: "PolarFire Quad Channel CXP-12 Kit",     fam: "pf" },
     { id: "pfeval",   name: "PolarFire Evaluation Kit",              fam: "pf" },

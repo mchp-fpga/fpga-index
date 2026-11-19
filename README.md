@@ -66,6 +66,14 @@ Microchip provides mid-range density FPGAs and SoC FPGAs known for power efficie
 
 ---
 
+## Microprocessors & Embedded Software
+
+| Repository / Organization | Description |
+|---|---|
+| [PIC64GX Embedded Software](https://github.com/pic64gx) | Embedded software, bootloaders, Linux BSPs, Zephyr, and examples for PIC64GX 64-bit RISC-V microprocessors. |
+
+---
+
 ## Software
 
 **Linux** &nbsp; [linux](https://github.com/linux4microchip/linux) &middot; [u-boot-mchp](https://github.com/linux4microchip/u-boot-mchp) &middot; [meta-mchp](https://github.com/linux4microchip/meta-mchp) &middot; [buildroot-external-microchip](https://github.com/linux4microchip/buildroot-external-microchip) &middot; [dt-overlay-mchp](https://github.com/linux4microchip/dt-overlay-mchp) &middot; [polarfire-soc-linux-examples](https://github.com/polarfire-soc/polarfire-soc-linux-examples)
